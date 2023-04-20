@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript_17</title>
+</head>
+<body>
+    <script type="text/javascript">
+        /*Dealing with date objects
+        function doSomething()
+        {
+            document.write("Tunqa"+"<br/>");
+        }
+        setInterval("doSomething()",1000000)
+        */
+       function printTime()
+       {
+        var now=new Date();
+        var hours=now.getHours();
+        var mins=now.getMinutes();
+        var second=now.getSeconds();
+        document.write(hours+" : "+mins+" : "+second+" "+"<br/>");
+       }
+       setInterval("printTime()",1000);
+      
+    </script>
+</body>
+</html>
